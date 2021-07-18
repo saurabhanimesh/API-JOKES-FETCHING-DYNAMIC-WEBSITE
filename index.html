@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris jokes website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+    <!-- for using axios -->
+</head>
+<body>
+    <!-- heading section  -->
+    <header class="heading" id="heading">Chuck Norries</header>
+    <!-- category choosing section -->
+    <section class="categorysection" id="categorysection">
+        <div class="categorysectionbox" id="categorysectionbox">
+        </div>
+    </section>
+    <!-- jokes showing section -->
+    <section class="jokessection" id="jokessection">
+        <h1 class="selectedcategory" id="selectedcategory">Selected Category : None</h1>
+        <div class="jokesectionbox" id="jokesectionbox">
+           <p class="jokes" id="jokes"></p>
+        </div>
+        <h2 class="newjoke" id="newjoke"><button id="fetchnewjoke">New Joke</button></h2>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
